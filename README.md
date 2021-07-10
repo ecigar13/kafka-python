@@ -8,10 +8,12 @@
 ## Pros
 - Easy to prototype (if I can get past the wrong tutorial)
 - Producers, consumers, transformers are modular
+- Scalable (but only up)
 
 ## Cons
 - Tough to start from scratch. Java is verbose.
 - No native UI to manage.
+- Too much work for a small or one-man businesses.
 
 ## Important commands
 ```mvn compile exec:java -Dexec.mainClass="myapps.WordCount"```
