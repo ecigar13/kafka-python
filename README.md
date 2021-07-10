@@ -11,9 +11,10 @@
 - Scalable (but only up)
 
 ## Cons
-- Tough to start from scratch. Java is verbose.
-- No native UI to manage.
+- Tough to start from scratch. 
+- Java client library is verbose. No python-like official library
+- No native UI to manage, requires human intervention
 - Too much work for a small or one-man businesses.
 
 ## Important commands
-```mvn compile exec:java -Dexec.mainClass="myapps.WordCount"```
+```mvn compile exec:java -Dexec.mainClass="myapps.WordCount"``` to run the transformer.
